@@ -69,7 +69,6 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-bottom: 100px;
     border-radius: 0px 0px 0px 290px;
 
     display: flex;
@@ -116,3 +115,65 @@ img {
     cursor: pointer;
 }
 
+/* Features-section */
+
+.features-section {
+    margin: 100px 0;
+    padding: 75px 42px;
+}
+
+.features-list {
+    display: flex;
+    align-items: center;
+}
+
+.features-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features-list-item:not(:last-child) {
+    margin-right: 100px;
+}
+
+.features-list-title {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    margin-bottom: 17px;
+}
+
+.features-list-text {
+    width: 317px;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    font-weight: 400;
+    margin-bottom: 68px;
+    text-align: center;
+}
+
+.features-list-link {
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;    
+    text-align: center;
+    letter-spacing: 0.36px;
+    align-items: center;
+}
+
+.features-list-link::after {
+    content: "";
+    width: 24px;
+    height: 17px;
+    background-image: url(../images/arrow.svg);
+    margin-left: 6px;
+}
