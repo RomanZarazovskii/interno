@@ -25,7 +25,7 @@ img {
 }
 
 .container {
-    width: 1200px;
+    width: 1440px;
     padding: 0 120px;
     margin: 0 auto;
 }
@@ -69,6 +69,11 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-bottom: 100px;
+    border-radius: 0px 0px 0px 290px;
+
+    display: flex;
+    align-items: center;
 }
 
 .hero-title {
@@ -79,7 +84,6 @@ img {
     color: #292F36;
     font-size: 80px;
     margin-bottom: 19px;
-    padding-top: 195px;
 }
 
 .hero-text {
@@ -91,16 +95,24 @@ img {
 }
 
 .hero-button {
+    width: 207px;
+    height: 71px;
+
+    background-image: url(../images/button.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
     border: 2px solid #292F36;
     border-radius: 18px;
-    background-color: #292F36;
-    padding: 22px 34px;
+    padding: 22px 67px 22px 34px;
+
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.72px;
     color: white;
-    display: flex;
-    align-items: center;
+    font-weight: 400;
+
+    cursor: pointer;
 }
 
-.arrow {
-    width: 55px;
-    margin-left: 15px;
-}
