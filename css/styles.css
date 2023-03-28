@@ -177,3 +177,150 @@ img {
     background-image: url(../images/arrow.svg);
     margin-left: 6px;
 }
+
+/* Design section */
+
+.design-section {
+    margin-bottom: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.design-section-subtitle {
+    width: 450px;
+
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    margin-bottom: 42px;
+}
+
+.design-section-text {
+    width: 531px;
+
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    margin-bottom: 30px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.design-phone {
+    margin-right: 20px;
+}
+
+.design-number {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.22px;
+}
+
+.design-text-number {
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+}
+
+.design-button {
+    margin-top: 50px;
+    width: 263px;
+    height: 71px;
+    
+    background-image: url(../images/button.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    border: 2px solid #292F36;
+    border-radius: 18px;
+    padding: 22px 67px 22px 34px;
+    
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.72px;
+    color: white;
+    font-weight: 400;
+    
+    cursor: pointer;
+}
+
+/* Response section */
+
+.response-section {
+    height: 675px;
+    background: #F4F0EC;
+    border-radius: 70px;
+}
+
+.responce-section-subtitle {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    padding-top: 103px;
+    margin-bottom: 45px;
+}
+
+.response-list {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 121px;
+}
+
+.response-item {
+    height: 287px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    width: 354px;
+}
+
+.response-item:not(:last-child) {
+    margin-right: 17px;
+}
+
+.response-user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-left: 35px;
+    padding-top: 50px;
+}
+
+.response-user-info {
+    margin-left: 20px;
+}
+
+.response-list-title {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+
+.response-list-paragraph {
+    font-size: 22px;
+}
+
+.response-list-text {
+    width: 310px;
+    height: 90px;
+
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.22px;
+    padding-left: 35px;
+}
