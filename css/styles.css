@@ -258,6 +258,7 @@ img {
     height: 675px;
     background: #F4F0EC;
     border-radius: 70px;
+    margin-bottom: 140px;
 }
 
 .responce-section-subtitle {
@@ -323,4 +324,125 @@ img {
     line-height: 30px;
     letter-spacing: 0.22px;
     padding-left: 35px;
+}
+
+/* Sponsor section */
+
+.sponsor-section {
+    margin-bottom: 100px;
+}
+
+.sponsor-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Project section */
+
+.project-section {
+    margin-bottom: 80px;
+}
+
+.project-subtitle {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 62px;    
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    margin-bottom: 20px;
+}
+
+.project-text {
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    margin-bottom: 70px;
+}
+
+.project-item-header {}
+
+.project-item-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.project-item-info {}
+
+.project-item-action {}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px 20px;
+}
+
+.project-list-item {
+    flex-basis: calc((100%-20px)/2);
+}
+
+.project-item-image {
+    margin-bottom: 24px;
+}
+
+.project-item-title {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+
+.project-item-text {
+    line-height: 33px;
+    letter-spacing: 0.22px;
+}
+
+.project-item-icon {}
+
+/* Section about */
+
+.section-about {
+    height: 475px;
+    margin-bottom: 130px;
+    background-color: #F4F0EC;
+    padding: 140px 0;
+}
+
+.about-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-list-item {
+    width: 288px;
+    height: 195px;
+    margin-right: 16px;
+}
+
+.about-list-item:not(:last-child) {
+    border-right: 1px solid #CDA274;
+}
+
+.about-number {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 128px;
+    text-align: center;
+    letter-spacing: 1.7px;
+    color: #CDA274;
+    margin-bottom: 10px;
+}
+
+.about-list-text {
+   text-align: center;
 }
