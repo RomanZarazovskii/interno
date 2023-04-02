@@ -363,13 +363,6 @@ img {
     margin-bottom: 70px;
 }
 
-.project-list-item {
-    margin-bottom: 60px;
-}
-
-
-.project-item-header {}
-
 .project-item-content {
     display: flex;
     justify-content: space-between;
@@ -383,18 +376,19 @@ img {
 .project-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 60px 20px;
 }
 
 .project-list-item {
-    flex-basis: calc((100%-20px)/2);
+    flex-basis: calc((100% - 20px) / 2);
 }
 
-.project-item-image {
+/* .project-item-image {
     width: 590px;
     height: 661px;
 
     margin-bottom: 24px;
-}
+} */
 
 .project-item-title {
     font-family: 'DM Serif Display';
