@@ -367,6 +367,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-top: 24px;
 }
 
 .project-item-info {}
@@ -479,7 +480,7 @@ img {
 .blogs-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px 17px;
+    gap: 40px 20px;
 }
 
 .blogs-list-item {
@@ -488,7 +489,7 @@ img {
 }
 
 .blogs-content{
-    padding: 21px 21px 40px 21px;
+    padding: 20px 20px 40px 20px;
 }
 
 .blogs-image {
